@@ -35,6 +35,7 @@
             this.btnThird = new System.Windows.Forms.Button();
             this.btnSixth = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnFirst
@@ -45,6 +46,7 @@
             this.btnFirst.TabIndex = 0;
             this.btnFirst.Text = "First";
             this.btnFirst.UseVisualStyleBackColor = true;
+            this.btnFirst.Click += new System.EventHandler(this.btnFirst_Click);
             // 
             // btnSecond
             // 
@@ -54,6 +56,7 @@
             this.btnSecond.TabIndex = 1;
             this.btnSecond.Text = "Second";
             this.btnSecond.UseVisualStyleBackColor = true;
+            this.btnSecond.Click += new System.EventHandler(this.btnSecond_Click);
             // 
             // btnFourth
             // 
@@ -63,6 +66,7 @@
             this.btnFourth.TabIndex = 2;
             this.btnFourth.Text = "Fourth";
             this.btnFourth.UseVisualStyleBackColor = true;
+            this.btnFourth.Click += new System.EventHandler(this.btnFourth_Click);
             // 
             // btnFifth
             // 
@@ -72,6 +76,7 @@
             this.btnFifth.TabIndex = 3;
             this.btnFifth.Text = "Fifth";
             this.btnFifth.UseVisualStyleBackColor = true;
+            this.btnFifth.Click += new System.EventHandler(this.btnFifth_Click);
             // 
             // btnThird
             // 
@@ -81,6 +86,7 @@
             this.btnThird.TabIndex = 4;
             this.btnThird.Text = "Third";
             this.btnThird.UseVisualStyleBackColor = true;
+            this.btnThird.Click += new System.EventHandler(this.btnThird_Click);
             // 
             // btnSixth
             // 
@@ -90,6 +96,7 @@
             this.btnSixth.TabIndex = 5;
             this.btnSixth.Text = "Sixth";
             this.btnSixth.UseVisualStyleBackColor = true;
+            this.btnSixth.Click += new System.EventHandler(this.btnSixth_Click);
             // 
             // btnExit
             // 
@@ -99,6 +106,16 @@
             this.btnExit.TabIndex = 6;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(27, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(133, 17);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Sudhir : n01324321";
             // 
             // Form1
             // 
@@ -106,6 +123,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnSixth);
             this.Controls.Add(this.btnThird);
@@ -116,6 +134,7 @@
             this.Name = "Form1";
             this.Text = "Week_8_Lab";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -128,6 +147,7 @@
         private System.Windows.Forms.Button btnThird;
         private System.Windows.Forms.Button btnSixth;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Label label1;
     }
 }
 
